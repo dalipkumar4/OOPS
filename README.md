@@ -1,9 +1,14 @@
-🚀 Object-Oriented Programming (OOP) in C++
+<span style="font-size: 40px;">🚀 Object-Oriented Programming (OOP) in C++</span>
 
 
-[Welcome to the C++ OOP repository! This repo contains examples, notes, and exercises to help you master Object-Oriented Programming in C++.]
 
-📖 Table of Contents
+
+[
+]
+
+Welcome to the C++ OOP repository! This repo contains examples, notes, and exercises to help you master Object-Oriented Programming in C++.
+
+<span style="font-size: 28px;">📖 Table of Contents</span>
 
 Introduction
 
@@ -19,7 +24,7 @@ Contributing
 
 License
 
-💡 Introduction
+<span style="font-size: 28px;">💡 Introduction</span>
 
 C++ is an Object-Oriented Programming language, which allows you to organize your code using classes and objects.
 
@@ -35,7 +40,7 @@ Abstraction
 
 All code is written in easy-to-understand C++, suitable for beginners and intermediate learners.
 
-✨ Features
+<span style="font-size: 28px;">✨ Features</span>
 
 ✅ Beginner-friendly C++ OOP examples
 
@@ -47,7 +52,7 @@ All code is written in easy-to-understand C++, suitable for beginners and interm
 
 ✅ Organized by topic for easy learning
 
-🧩 Concepts Covered
+<span style="font-size: 28px;">🧩 Concepts Covered</span>
 Concept	Description	Example File
 Classes & Objects	Basics of creating classes and objects	classes_objects.cpp
 
@@ -63,7 +68,7 @@ Constructors & Destructors	Initialize and clean up objects	constructor_destructo
 
 (Click the links to open files directly on GitHub)
 
-📁 Folder Structure
+<span style="font-size: 28px;">📁 Folder Structure</span>
 OOP_CPP/
 │
 ├── classes_objects.cpp
@@ -74,7 +79,7 @@ OOP_CPP/
 ├── constructor_destructor.cpp
 └── README.md
 
-⚙️ How to Run
+<span style="font-size: 28px;">⚙️ How to Run</span>
 
 Clone the repository:
 
@@ -98,7 +103,7 @@ Run the program:
 
 Make sure you have a C++ compiler installed (like g++).
 
-🤝 Contributing
+<span style="font-size: 28px;">🤝 Contributing</span>
 
 Contributions are welcome!
 
@@ -120,6 +125,6 @@ Push changes (git push origin feature-branch)
 
 Create a Pull Request
 
-📜 License
+<span style="font-size: 28px;">📜 License</span>
 
 This repository is licensed under the MIT License.
