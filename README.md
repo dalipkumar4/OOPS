@@ -34,7 +34,7 @@ OOP_CPP/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/oops-cpp.git
+git clone https://github.com/dalipkumar4/oops-cpp.git
 
 
 Navigate to the folder:
