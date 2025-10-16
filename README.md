@@ -1,11 +1,6 @@
 <span style="font-size: 42px;">🚀 Object-Oriented Programming (OOP) in C++</span>
 
 
-
-
-[
-]
-
 Welcome to the C++ OOP repository! This repo contains examples and exercises to help you learn Object-Oriented Programming in C++.
 
 <span style="font-size:32px;">📖 Table of Contents</span>
