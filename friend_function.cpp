@@ -14,7 +14,7 @@ class Patient {
             disease = d;
         }
 
-        // Dedlaring friend function
+        // Declaring friend function
         friend void showRecord(Patient p);
 };
 
@@ -28,7 +28,7 @@ void showRecord(Patient p){
 
 int main(){
     Patient p1("Krish", 20, "Alzheimers");
-    showRecord(p1); // Friend funcction can acess private data
+    showRecord(p1); // Friend function can access private data
 
     return 0;
 }
