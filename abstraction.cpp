@@ -1,34 +1,29 @@
-#include <iostream>
-using namespace std;
-
-class Netflix {
-private:
-    // Internal details (hidden from the user)
-    void connectToServer() {
-        cout << "Connecting to Netflix servers..." << endl;
-    }
-
-    void loadMovieData() {
-        cout << "Loading movie data and buffering..." << endl;
-    }
-
-    void decodeStream() {
-        cout << "Decoding the video stream..." << endl;
-    }
-
+class Vehicle {
 public:
-    // Only the essential feature is visible to the user
-    void playMovie(string movieName) {
-        cout << "User selected: " << movieName << endl;
-        connectToServer();     // internal work (hidden)
-        loadMovieData();       // internal work (hidden)
-        decodeStream();        // internal work (hidden)
-        cout << "Now playing: " << movieName << " 🎬" << endl;
+    virtual void start() = 0;
+};
+
+class Car : public Vehicle {
+public:
+    void start() {
+        cout << "Car starts with key" << endl;
     }
 };
 
+class Bike : public Vehicle {
+public:
+    void start() {
+        cout << "Bike starts with kick" << endl;
+    }
+};
 int main() {
-    Netflix user1;
-    user1.playMovie("Money Heist");
+    Vehicle* v;
+
+    v = new Car();
+    v->start();       // Car starts with key
+
+    v = new Bike();
+    v->start();       // Bike starts with kick
+
     return 0;
 }
